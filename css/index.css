@@ -61,7 +61,7 @@ html, body, .main {
     position: absolute;
     right: 0;
     top: 0;
-    /*z-index: 20;*/
+    z-index: 20;
 }
 
 .slide1 img:nth-of-type(3) {
@@ -249,6 +249,7 @@ html, body, .main {
 .slide3 img:nth-of-type(1) {
     width: 100%;
     height: 100%;
+    opacity: 0;
 }
 
 .slide3 img:nth-of-type(2) {
@@ -612,10 +613,11 @@ html, body, .main {
     -webkit-animation: bounceInUp 1s 0.2s both;
     animation: bounceInUp 1s 0.2s both;
 }
-/*#page3 span:nth-of-type(7){
-    -webkit-animation: bounceInUp 1s 0.2s both;
-    animation: bounceInUp 1s 0.2s both;
-}*/
+#page4 img:nth-of-type(1){
+    opacity: 1;
+    -webkit-animation: bounceInLeft 1s 0.2s both;
+    animation: bounceInLeft 1s 0.2s both;
+}
 #page4 span{
     opacity: 1;
     -webkit-animation: bounceInRight 1s 0.3s both;
