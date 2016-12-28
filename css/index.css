@@ -1,8 +1,8 @@
 html, body, .main {
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-}
+     width: 100%;
+     height: 100%;
+     overflow: hidden;
+ }
 
 .swiper-container { /*所有图片公有的背景*/
     width: 100%;
@@ -33,19 +33,24 @@ html, body, .main {
     font-size: .6rem;
     color: darkcyan;
     position: absolute;
-    right: 0.6rem;
-    top: 2.1rem;
+    right: 0.2rem;
+    top: 2.3rem;
     text-align: center;
     background: url("../img/bg1-3.gif") no-repeat 2rem;
     display: none;
 }
 
-.slide1 .inf span {
-    display: none;
+.slide1 .inf p {
+    display: block;
     height: .7rem;
     line-height: 0.7rem;
 }
-
+.slide1 .inf span{
+    width: 5rem;
+    height: 1rem;
+    line-height: 1rem;
+    font-size: .38rem;
+}
 .slide1 img:nth-of-type(1) {
     width: 5rem;
     height: 7rem;
@@ -76,7 +81,7 @@ html, body, .main {
     width: 100%;
     height: 82%;
     position: absolute;
-    left: 0.3rem;
+    left: 0.6rem;
     top: 0;
 }
 
@@ -84,8 +89,8 @@ html, body, .main {
     width: 2.1rem;
     height: 2.2rem;
     position: absolute;
-    right: 2.85rem;
-    bottom: 17%;
+    right: 2.55rem;
+    bottom: 2.1rem;
 }
 
 .slide1 img:nth-of-type(6) {
@@ -249,7 +254,6 @@ html, body, .main {
 .slide3 img:nth-of-type(1) {
     width: 100%;
     height: 100%;
-    opacity: 0;
 }
 
 .slide3 img:nth-of-type(2) {
@@ -301,7 +305,6 @@ html, body, .main {
     animation: move4 3s linear infinite;*/
 }
 .slide3 span{
-    opacity:0;
     position: absolute;
     left: 52%;
     display: block;
@@ -380,7 +383,7 @@ html, body, .main {
     left: -2%;
     width: 30%;
     height: 100%;
-    opacity: 1;
+    /*opacity: 1;*/
 }
 /*//小标题的圆和内容*/
 .slide4 .title1 {
@@ -412,9 +415,8 @@ html, body, .main {
     border: 0.16rem solid #6699ff;
 
 }
-.slide4 .title1 .content p{
-    opacity: 1;
-    padding-top: 0.25rem;
+.slide4 .title1 .content span{
+    padding-top: 0.8rem;
 }
 
 .slide4 span{
@@ -425,7 +427,6 @@ html, body, .main {
     font-size: 0.33rem;
     color: black;
     position: absolute;
-    opacity:0;
 }
 .slide4 span:nth-of-type(1){
     left: 25%;
@@ -466,25 +467,25 @@ html, body, .main {
 .slide5 img:nth-of-type(2) {
     width: 1.5rem;
     height:1.5rem;
-    right:7%;
-    bottom: 27%;
+    right:0.4rem;
+    bottom: 3rem;
 }
 
 .slide5 img:nth-of-type(3) {
     width:1rem;
     height: 0.6rem;
-    right:36%;
-    bottom: 31%;
+    right:2.3rem;
+    bottom: 3.5rem;
     -webkit-animation: move5 1s linear infinite;
     animation: move5 1s linear infinite;
 }
 .slide5 span{
-    display: none;
+    display: block;
     position: absolute;
     left: 1rem;
-    top:1rem;
-    height: 40%;
-    width: 60%;
+    top:1.6rem;
+    height: 4.25rem;
+    width: 4rem;
     font-size: .4rem;
     line-height: 0.8rem;
     text-align: center;
@@ -586,85 +587,36 @@ html, body, .main {
     -webkit-animation: bounceInUp 1s 0.2s both;
     animation: bounceInUp 1s 0.2s both;
 }
-#page3 span{
-    opacity:1;
-}
-#page3 span:nth-of-type(1){
-    -webkit-animation: bounceInUp 1s 2.2s  both;
-    animation: bounceInUp 1s 2.2s  both;
-}
-#page3 span:nth-of-type(2){
-    -webkit-animation: bounceInUp 1s 1.8s both;
-    animation: bounceInUp 1s 1.8s both;
-}
-#page3 span:nth-of-type(3){
-    -webkit-animation: bounceInUp 1s 1.4s both;
-    animation: bounceInUp 1s 1.4s both;
-}
-#page3 span:nth-of-type(4){
-    -webkit-animation: bounceInUp 1s 1s both;
-    animation: bounceInUp 1s 1s both;
-}
-#page3 span:nth-of-type(5){
-    -webkit-animation: bounceInUp 1s 0.6s both;
-    animation: bounceInUp 1s 0.6s both;
-}
-#page3 span:nth-of-type(6){
-    -webkit-animation: bounceInUp 1s 0.2s both;
-    animation: bounceInUp 1s 0.2s both;
-}
-#page4 img:nth-of-type(1){
-    opacity: 1;
-    -webkit-animation: bounceInLeft 1s 0.2s both;
-    animation: bounceInLeft 1s 0.2s both;
-}
-#page4 span{
-    opacity: 1;
-    -webkit-animation: bounceInRight 1s 0.3s both;
-    animation: bounceInRight 1s 0.3s both;
+
+#page3 img:nth-of-type(8){
+    -webkit-animation: bounceInLeft 1s 0.1s both;
+    animation: bounceInLeft 1s 0.1s both;
 }
 
-#page5 span{
-    display: block;
-    -webkit-animation: rollIn 1s 0.3s both;
-    animation: rollIn 1s 0.3s both;
-}
+
+
+
 @keyframes move {
     100% {
         -webkit-transform: translate(0, 12rem);
         transform: translate(0, 12rem)
     }
 }
-@-webkit-keyframes move1 {
-    100% {
-        -webkit-transform: rotate(360deg);
-        transform: rotate(360deg)
-    }
-}
+
 @keyframes move1 {
     100% {
         -webkit-transform: rotate(360deg);
         transform: rotate(360deg)
     }
 }
-@-webkit-keyframes move2 {
-    100% {
-        -webkit-transform: rotate(-360deg);
-        transform: rotate(-360deg)
-    }
-}
+
 @keyframes move2 {
     100% {
         -webkit-transform: rotate(-360deg);
         transform: rotate(-360deg)
     }
 }
-@-webkit-keyframes move3 {
-    100% {
-        -webkit-transform: translate(0, 12rem) rotate(360deg);
-        transform: translate(0, 12rem) rotate(360deg)
-    }
-}
+
 @keyframes move3 {
     100% {
         -webkit-transform: translate(0, 12rem) rotate(360deg);
@@ -672,28 +624,14 @@ html, body, .main {
     }
 }
 
-@-webkit-keyframes move4 {
-    100% {
-        -webkit-transform: rotateY(360deg);
-        transform: rotateY(360deg)
-    }
-}
+
 @keyframes move4 {
     100% {
         -webkit-transform: rotateY(360deg);
         transform: rotateY(360deg)
     }
 }
-@-webkit-keyframes move5 {
-    50% {
-        -webkit-transform: translate(0.5rem);
-        transform: translate(0.5rem);
-    }
-    100% {
-        -webkit-transform: translate(0);
-        transform: translate(0);
-    }
-}
+
 @keyframes move5 {
     50% {
         -webkit-transform: translate(0.5rem);
