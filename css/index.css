@@ -33,17 +33,20 @@ html, body, .main {
     font-size: .6rem;
     color: darkcyan;
     position: absolute;
-    right: 0.6rem;
-    top: 2.1rem;
+    right: 0.35rem;
+    top: 2.4rem;
     text-align: center;
     background: url("../img/bg1-3.gif") no-repeat 2rem;
     display: none;
 }
-
-.slide1 .inf span {
-    display: none;
+.slide1 .inf p{
+    display: block;
     height: .7rem;
     line-height: 0.7rem;
+}
+.slide1 .inf span {
+    display: block;
+    font-size: .38rem;
 }
 
 .slide1 img:nth-of-type(1) {
@@ -482,11 +485,11 @@ html, body, .main {
     display: none;
     position: absolute;
     left: 1rem;
-    top:1rem;
+    top:0.8rem;
     height: 40%;
     width: 60%;
-    font-size: .4rem;
-    line-height: 0.8rem;
+    font-size: .35rem;
+    line-height: 0.7rem;
     text-align: center;
     border: 0.1rem solid white;
     transform: rotate(10deg);

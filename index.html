@@ -27,7 +27,10 @@
                 <img src="img/inf.png" alt=""><!--气球-->
                 <img src="img/me.png" alt="">
                 <div class="inf">
-                    <span><strong>李英普简历</strong></span>
+                    <p><strong>李英普简历</strong>
+                        <span>求职意向：web前端</span>
+                    </p>
+
                     <!--<span><strong>出生日期：</strong>1989.6</span><br/>
                     <span><strong>毕业院校：</strong>河北地质大学</span><br/>
                     <span><strong>电话：</strong>15600660468</span><br/>-->
@@ -91,9 +94,15 @@
                         自我评价
                     </li>
                 </ul>
-                <div class="warp warp1"><div class="inner inner1"></div></div>
-                <div class="warp warp2"><div class="inner inner2"></div></div>
-                <div class="warp warp3"><div class="inner inner3"></div></div>
+                <div class="warp warp1">
+                    <div class="inner inner1"></div>
+                </div>
+                <div class="warp warp2">
+                    <div class="inner inner2"></div>
+                </div>
+                <div class="warp warp3">
+                    <div class="inner inner3"></div>
+                </div>
                 <span>永不服输的心态，坚持不懈的奋斗</span>
                 <span>热爱学习并在学习中不断进步</span>
                 <span>工作认真严谨，善于协作</span>
@@ -110,9 +119,9 @@
 </section>
 <script src="js/swiper.min.js"></script>
 <script>
-    var swiper=new Swiper('.swiper-container',{
-        direction:'vertical',//垂直运动
-        loop:true,
+    var swiper = new Swiper('.swiper-container', {
+        direction: 'vertical',//垂直运动
+        loop: true,
         onTransitionEnd: function (swiper) {
             var slides = swiper.slides;
             var curIndex = swiper.activeIndex;
